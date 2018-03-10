@@ -1,0 +1,337 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="title" content="HowToCryptoCurrencies">
+    <meta name="description" content="Free reviews and guides of how to do all things Crypto Currency.">
+    <meta name="keywords" content="Bitcoin, Crypto Currency, Crypto Currencies, Crypto Trading, Alt Currency, Alt Coins, Digital Money, Trading">
+    <meta name="title" content="HowToCryptoCurrencies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="{% static 'style.css' %}"/>
+    <link type="text/css" rel="stylesheet" href="{% static 'img' %}"/>
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/favicon.ico' %}"/>
+    <title>HowToCryptoCurrencies</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-3-center-centered"><font color=#F0FFFF>Welcome!</font></h1>
+              
+              <p class="lead"><font color=#F0FFFF>Howtocryptocurrencies.com is a completely free website! We have located free resources for you to use that are full of information. Below are six of the top crypto currencies on the market today.</font></p>
+              
+            </div>
+          </div>
+          <div class="text-center">
+              <a target="_blank" href="https://www.bitbond.com/resources/invest/bitcoin-lending/?a=4SRRENHRJE">
+                <img src="https://www.bitbond.com/affiliate-program/invest-leaderboard-en.png" class="img-thumbnail"
+                     alt="bitbond bitcoin lending" />
+              </a>
+          </div>
+
+          <br>
+
+
+          <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">HowToCryptoCurrencies</a>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="books">Trading Books</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="mining">Mining Crypto</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="charting">Charting</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link " href="lending">Lending</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <div class="container">
+
+                   <div class="text-center">
+                     <br>
+                      <h6>The current price information from coinMarketCap a great website! Additionally the top 5 latest stories from the subreddits specific to that cryptocurrency are included underneath.</h6>
+                      <br>
+                  </div>
+
+                
+              <div class="card-deck">
+                  <div class="w-100 hidden-xs-down hidden-md-up"><!-- wrap every 2 on sm--></div>
+                  <div class="card mb-4">
+                      <div>
+                            <div class="card mb-4">
+                                    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="bitcoin" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>              
+                                    <script src="https://www.reddit.com/r/Bitcoin/.embed?limit=5" target="_blank" type="text/javascript"></script>
+                              </div>
+                    </div>
+                  </div>
+                  <div class="w-100 hidden-xs-down hidden-md-up"><!-- wrap every 2 on sm--></div>
+                  <div class="card mb-4">
+                        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="ethereum" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>              
+                        <script src="https://www.reddit.com/r/Ethereum/.embed?limit=5" type="text/javascript"></script>
+                  </div>
+                  <div class="w-100 hidden-xs-down hidden-md-up"><!-- wrap every 2 on sm--></div>
+                  <div class="card mb-4">
+                        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="neo" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>              
+                        <script src="https://www.reddit.com/r/Neo/.embed?limit=5" type="text/javascript"></script>
+                  </div>
+                  <div class="w-100 hidden-xs-down hidden-md-up"><!-- wrap every 2 on sm--></div>
+                  <div class="card mb-4">
+                        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="litecoin" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>              
+                        <script src="https://www.reddit.com/r/Litecoin/.embed?limit=5" type="text/javascript"></script>
+                  </div>
+                  <div class="w-100 hidden-xs-down hidden-md-up"><!-- wrap every 2 on sm--></div>
+                  <div class="card mb-4">
+                        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="ripple" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>              
+                        <script src="https://www.reddit.com/r/Ripple/.embed?limit=5" type="text/javascript"></script>
+                  </div>
+                  <div class="w-100 hidden-xs-down hidden-md-up"><!-- wrap every 2 on sm--></div>
+                  <div class="card mb-4">
+                        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script><div class="coinmarketcap-currency-widget" data-currency="icon" data-base="USD" data-secondary="" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="false"></div>              
+                        <script src="https://www.reddit.com/r/helloicon/.embed?limit=5" type="text/javascript"></script>
+                  </div>
+          </div>
+        </div>
+        <div class="container">
+
+            <div class="w-100 hidden-sm-down hidden-lg-up"><!-- wrap every 3 on md--></div>
+            <div class="card mb-4">
+              <div class="card-block">
+          <h4 class="card-title-center-centered">So how do you safely buy a crypto currency like the ones listed above?</h4>
+          <p class="card-text">Buying crypto currencies is easy and made even easier by following the detailed steps laid out below.</p>
+          <p class='card-text'>Our preferred exchange is Binance. Binance not only is one of the only exchanges that has not been hacked but offers trading for a wide variety of crypto currencies. There are three main steps to buying and selling crypto currencies on Binance.</p>
+          <ul>1. Buy Bitcoin or Etherum on <a href="https://cex.io/r/0/up118929216/0/" target="_blank">Cex.io</a>. Binance does not allow you to directly deposit cash into your account, instead you need to deposit a crypto currency and that is why you need CEX.io. If the crypto currency you wish to buy on Biannce has a pair like ETH/(coin you want) buy ETH not Bitcoin to reduce the fees and transaction times.</ul>
+          <ul>2. Transfer those bitcoins you just bought to your <a href="https://us.binance.com/?ref=21015562" target="_blank">Binance</a> account.</ul>
+          <ul>3. Buy your crypto currency of choice on Binance.</ul>
+          <ul>* If the crypto Currency you want is purchaseable on  there is no need to transfer those coins to Biance after purchasing them on <a href="https://cex.io/r/0/up118929216/0/" target="_blank">Cex.io</a>. You will only incur more fees by transfering them to you Binance account.</ul>
+          <p>The following instructions will take you through a more detailed version of the three steps above and include up to date photos.</p>
+          <p>Either create a  <a href="https://cex.io/r/0/up118929216/0/" target="_blank">Cex.io</a> and <a href="https://us.binance.com/?ref=21015562" target="_blank">Binance</a> account now or follow along and create the two accounts with the instructions below.</p>
+  
+          <div class="text-center">
+          <p class='card-text'><a href="https://us.binance.com/?ref=21015562" target="_blank">Click here to make a Binance Account </a></p><br>
+          </div>
+
+
+          <div class="text-center">
+            
+              <img src="static/img/binance.jpg" alt="Click Register" class="img-thumbnail">
+          </div><br>
+
+          <p>Fill out the registration form you see after clicking "Register". There is a photo of it below.</p><br>
+   
+          <div class="text-center">
+              <img src="static/img/binance_reg.png" alt="Binance Registration Form" class="img-thumbnail"><br>
+          </div>
+
+          <br><p>After filling out the registration form a pop up will ask you to choose a second form of security. Make sure you do this since you want to be sure to keep your investment safe. Google Authenticator is very nice and not difficult to understand.</p>
+
+          <div class="text-center">
+              <img src="static/img/binance_deposit.png" alt="How to Deposit" class="img-thumbnail"><br>
+          </div>
+
+          <br><p>Congratulations on opening a Binance account! Now, to make your first deposit. Select the "Funds" button and click "Balances" from the drop down menu like the image above. </p>
+
+          <div class="text-center">
+              <img src="static/img/binace_deposit_other.png" alt="Deposit in Binance website" class="img-thumbnail"><br>
+          </div>
+
+          <br>
+
+          <p>Now either choose to deposit Ethereum or Bitcoin to your Binance account. The example in this set of instructions features Bitcoin but the process will be the same no matter which crypto currency you are depositing.</p>
+
+          <div class="text-center">
+              <img src="static/img/binance_deposit_code.png" alt="Binance Deposit Address" class="img-thumbnail"><br>
+          </div>
+
+          <br>
+
+          <p>Now you should see a page or pop up with a code on it for where the Bitcoins or Ethereum you are about to buy on Cex.io will be sent. This is how you will transfer money into your Binance account where you can purchase a wider variety of crypto currencies. Copy and paste the code now or be ready to come back and get it in a minute.</p>
+
+          <br>
+          <div class="text-center">
+            <p class='card-text'><a href="https://cex.io/r/0/up118929216/0/" target="_blank">Click here to make a Cex.io Account</a></p>
+          </div><br>
+
+          <div class="text-center">
+              <img src="static/img/cex.io_register.png" alt="Register Cex.io" class="img-thumbnail"><br>
+          </div>
+
+          <br>
+
+          <p>Fill out the registration information on the form which will look like the photo above.</p>
+
+          <br>
+
+          <div class="text-center">
+                <img src="static/img/cex.io_verification.png" alt="Cex.io Registration" class="img-thumbnail"><br>
+            </div>
+  
+            <br>
+  
+            <p>Now that you have created a Cex.io account make sure that you go up to the top left hand side under your account number and click "verification" under your account. This is a bit of a process but you will need to do it to enjoy the full functionality of the Cex.io account you just made. Make sure to follow the steps before continuing on.</p>
+
+            <br>
+
+          <div class="text-center">
+              <img src="static/img/cex.io_deposit_methods.png" alt="Cex.io Add Payment" class="img-thumbnail"><br>
+          </div>
+
+          <br>
+
+          <p>Now that you have a Cex.io account and have verified it you need to add a way to put money into it. The photo above shows you your options; make sure you are aware of the fees for each these since they can be different for every user depending on your bank or credit card provider. After doing some quick research choose your preferred way of depositing money into your Cex.io account.</p>
+
+          <br>
+
+          <p>There are two different ways to purchase bitcoins on Cex.io</p>
+
+          <br>
+
+          <div class="text-center">
+                <img src="static/img/cex.io_predetermined_amounts.png" alt="Cex.io deposit predetermined amount" class="img-thumbnail"><br>
+            </div>
+  
+            <br>
+
+            <p>You can purchase a predetermined amount of a certain coin like the photo above shows. Also notice that these are automatically updated every so often because the market it always moving.</p>
+
+
+            <br>
+
+            <div class="text-center">
+                    <h6>OR</h6>
+            </div>
+
+            <br>
+
+            <div class="text-center">
+                    <img src="static/img/cex.io_trading_buy.png" alt="Cex.io buy market" class="img-thumbnail"><br>
+                </div>
+      
+            <br>
+
+            <p>You can place an order to be filled in the market since you can sometimes get a better rate doing this. Either way Cex.io often features better rates than other sites like Coinbase.</p>
+
+            <br>
+
+            <div class="text-center">
+                    <img src="static/img/cex.io_withdraw.png" alt="Cex.io withdraw button" class="img-thumbnail"><br>
+                </div>
+      
+            <br>
+          
+          <p>Now that you have purchased some Bitcoin you need to withdraw it and deposit it into your Binance account. Click the withdraw button in the upper right hand side of the screen. On the same row should also be the amount of Bitcoin you bought.</p>
+
+          <br>
+
+          <div class="text-center">
+                  <img src="static/img/cex.io_withdraw_form.png" alt="Cex.io withdraw form with address" class="img-thumbnail"><br>
+              </div>
+    
+          <br>
+
+          <p>After clicking the withdraw button you will be brought to this new screen. Here, make sure that you click the BTC button in the upper right corner. Now under "Enter the recipient's address below" paste the address from your Binance account or the "deposit address". Make sure that Cex.io and Binance addresses are both for the same coin and that you have cut and copied the whole "deposit address" from your Binance account. Also enter the amount you want to send. There will be a fee for this and it will figure out the math for you so there is no need to do the subtraction yourself.  </p>
+
+          <br>
+          <br>
+          <div class="text-center">
+              <img src="static/img/binance_deposit_code.png" alt="Binance Deposit Address" class="img-thumbnail"><br>
+          </div>
+          <br>
+
+          <p>Just in case you forgot, here is where your Deposit Address for your Binance account will be. Copy and paste the whole address into the recipient box on Cex.io like in the photo above. </p>
+
+          <br>
+          <div class="text-center">
+              <img src="static/img/cex.io_withdraw_confirm.png" alt="Check Email" class="img-thumbnail"><br>
+          </div>
+          <br>
+
+          <p>You will see this after clicking the withdraw button. As you can tell by now Cex.io adds lots of features to keep your money safe.</p>
+
+          <br>
+          <div class="text-center">
+              <img src="static/img/cex.io_confirming.png" alt="Transaction Being Processed" class="img-thumbnail"><br>
+          </div>
+          <br>
+
+          <p>You will now see this screen after confirming the transaction in your email. Now just wait for the deposit to show up in your Binance account. You are almost there!!!.</p>
+
+
+          <br>
+          <div class="text-center">
+              <img src="static/img/binance_exchange.png" alt="Step 1 Buy Binance" class="img-thumbnail"><br>
+          </div>
+          <br>
+
+          <p>In the upper right hand corner of the screen on Binance click the exchange button and then the basic option from the drop down menu.</p>
+
+
+          <br>
+          <div class="text-center">
+              <img src="static/img/binance_buy:sell.png" alt="Step 2 Buy Binance" class="img-thumbnail"><br>
+          </div>
+          <br>
+
+          <p>That will take you to this screen where you can type in the coin you want to purchase in the upper right hand corner, such "icx/btc". Make sure that if you deposited bitcoin you are looking up that pair "(coin you want)/btc" if you bought Bitcoin or "(coin you want)/eth" if you bought and deposited Ethereum.</p>
+
+          <br>
+          <div class="text-center">
+              <img src="static/img/giphy.gif" alt="Congratulations" class="img-thumbnail"><br>
+          </div>
+          <br>
+
+          <h4>Congratulations on purchasing your first crypto currency!!! Make sure to take a look around the rest of the site.</h4>
+
+          </div>
+          </div>
+          </div>
+
+          <div class="text-center">
+              <a target="_blank" href="https://www.bitbond.com/resources/invest/bitcoin-lending/?a=4SRRENHRJE">
+                <img src="https://www.bitbond.com/affiliate-program/invest-leaderboard-en.png" class="img-thumbnail"
+                     alt="bitbond bitcoin lending" />
+              </a>
+          </div>
+          <br>
+
+          <div class="footer">
+                <h5> Have a question or a comment contact us at:</h5>
+                <h5><a href="mailto:info@howtocryptocurrencies.com">info@howtocryptocurrencies.com</a></h5>
+                <p>Disclaimer:
+                    The purpose of this website is to present information from other sources. As such, owners of this website do not take responsibility for the accuracy or opinions presented by these sources, although they are included in our site as information for interested readers. As with any financial investment, any decision to purchase bitcoin or other cryptocurrency should include careful consideration of inherent risks and benefits. The owners of this website are not expressing an opinion about the purchase of these financial instruments.</p>
+            </div>
+          <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114906038-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114906038-1');
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.jumbotron {
+    margin-top: 25px;
+    background-image: url("./img/jumbotron_backround.jpg");
+    background-size: cover;
+    /* background:#FFF; */
+
+}
+
+.card-deck {
+    margin-top: 10px;
+}
+
+.top-card {
+    margin-top: 10px;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B5B1B1;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    color: #B5B1B1;
+}
